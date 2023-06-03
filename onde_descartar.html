@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <title>Minha Página</title>
+    <style>
+        /* estilo da navbar */
+        nav {
+            background-color: rgb(5, 82, 9);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 1%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* estilo do link da navbar */
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 150%;
+        }
+
+        /* estilo do conteúdo principal */
+        main {
+            padding: 2%;
+            background-image: url(./assortment-of-dirty-dumped-objects.jpg);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            text-indent: 3%;
+            font-size: 150%;
+        }
+
+        figcaption {
+            font-size: 70%;
+        }
+
+        .mapa {
+            text-align: center;
+        }
+
+        /* menu transparente */
+        .menu_flutuante {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 3%;
+            border-radius: 2%;
+        }
+
+        .col {
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 20px;
+        }
+
+        .col h5 {
+            text-align: center;
+        }
+
+        .col img src {
+            text-align: center;
+
+        }
+
+        /* cor de fundo */
+        body {
+            background-color: azure;
+
+        }
+
+        /* estilo do rodapé */
+        footer {
+            background-color: rgb(5, 82, 9);
+            color: white;
+            padding: 0.5%;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <a href="./index.html">Início</a>
+        <a href="./onde_descartar.html">Onde descartar</a>
+        <a href="./reciclagem.html">Reciclagem</a>
+        <a href="./quem_somos.html">Quem somos</a>
+        <a href="./contato.html">Contatos</a>
+    </nav>
+
+    <!-- conteúdo principal -->
+    <main>
+        <div class="menu_flutuante">
+            <h1 align="center"><B>Locais de descarte</B></h1>
+            <h2 align="center"><B>Escolas Municipais</B></h2>
+
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+
+            <div class="container text-center">
+                <div class="row">
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Antônio Coury</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.3614029644114!2d-46.92150402375127!3d-21.843591300742535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82bf0411d14c7%3A0x60931ad7608d6f3a!2sAnt%C3%B4nio%20coury!5e0!3m2!1spt-BR!2sbr!4v1683594499991!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Mário Beni</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.3131910998286!2d-46.90973662375118!3d-21.845452000806052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82954a596af8f%3A0x73e50ca292ebe069!2sE.M.E.B.%20%22M%C3%A1rio%20Beni%22!5e0!3m2!1spt-BR!2sbr!4v1683594664581!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Nair Bolonha</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.1952710234154!2d-46.898845223751024!3d-21.850002400961305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82c04f2114c03%3A0x17c33be5f1dc6151!2sEMEB%20Nair%20Bolonha!5e0!3m2!1spt-BR!2sbr!4v1683594843171!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Henrique de Brito</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.3570825700704!2d-46.90057551297211!3d-21.843758049208894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82c0798897b9d%3A0x63b28e9ba0a67a1b!2sEscola%20Municipal%20de%20Ensino%20Infantil%20e%20Fundamental%20Henrique%20de%20Brito%20Novaes%20Prof!5e0!3m2!1spt-BR!2sbr!4v1683595106915!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Darci Troncoso P. de Carvalho Profa</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.794771511737!2d-46.90833202375169!3d-21.826859000172075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82be51d6e69b1%3A0x5dee8534cd082e6f!2sEscola%20Municipal%20de%20Ensino%20Infantil%20e%20Fundamental%20Darci%20Troncoso%20P.%20de%20Carvalho%20Profa!5e0!3m2!1spt-BR!2sbr!4v1683595350104!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Pe. Donizetti</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.976050922079!2d-46.89637791129639!3d-21.81985620672126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82bdc42d10b4b%3A0x1319234a4f50a716!2sEMEB%20Pe.%20Donizetti!5e0!3m2!1spt-BR!2sbr!4v1683595412858!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Professor Francisco Ribeiro Carril</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.538294889043!2d-46.90069692451721!3d-21.836763000508242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82b5e2d05c5db%3A0x2397cd69fd3296b0!2sEMEB%20PROFESSOR%20FRANCISCO%20RIBEIRO%20CARRIL!5e0!3m2!1spt-BR!2sbr!4v1685754459293!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <h5><b>E.M.E.B. Professor Francisco Ribeiro Carril</b></h5>
+                        <figure align="center">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14814.659703735248!2d-46.89703!3d-21.8318736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82bee5b2e8683%3A0x7157dc63f996d15b!2zQXNzb2NpYcOnw6NvIFNldGVtYnJv!5e0!3m2!1spt-BR!2sbr!4v1685756256657!5m2!1spt-BR!2sbr"
+                                width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados à Etec de Vargem Grande do Sul ©</p>
+    </footer>
+</body>
+
+</html>
