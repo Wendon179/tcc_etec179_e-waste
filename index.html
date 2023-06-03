@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+https://github.com/Wendon179/tcc_etec179_e-waste.git<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
     <title>Minha Página</title>
     <style>
         /* estilo da navbar */
@@ -39,7 +44,11 @@
             font-size: 150%;
         }
 
-        .mapa{
+        figcaption {
+            font-size: 70%;
+        }
+
+        .mapa {
             text-align: center;
         }
 
@@ -69,99 +78,167 @@
 <body>
     <!-- navbar -->
     <nav>
-        <a href="#">Contato</a>
-        <a href="#home">Início</a>
-        <a href="#clients">Onde descartar</a>
-        <a href="#about">Como reciclar</a>
-        <a href="#contact">Quem somos</a>
+        <a href="./TCC_SITE.html">Início</a>
+        <a href="./onde_descartar.html">Onde descartar</a>
+        <a href="./reciclagem.html">Reciclagem</a>
+        <a href="./quem_somos.html">Quem somos</a>
+        <a href="./contato.html">Contatos</a>
     </nav>
 
     <!-- conteúdo principal -->
     <main>
         <div class="menu_flutuante">
-            <h1 align="center">Bem-vindo à minha página!</h1>
+            <h1 align="center"><b>O que é lixo eletrônico?</b></h1>
 
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.3614028207226!2d-46.92111778490698!3d-21.84359130628832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82bf0411d14c7%3A0x60931ad7608d6f3a!2sAnt%C3%B4nio%20coury!5e0!3m2!1spt-BR!2sbr!4v1678757299194!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.336361264293!2d-46.89956717880037!3d-21.844557784832197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82c0f3a2ca5c7%3A0x3d4a4cf65654eb37!2sEscola%20T%C3%A9cnica%20Estadual%20de%20Vargem%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1678757055205!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.3614028207226!2d-46.92111778490698!3d-21.84359130628832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c82bf0411d14c7%3A0x60931ad7608d6f3a!2sAnt%C3%B4nio%20coury!5e0!3m2!1spt-BR!2sbr!4v1678757299194!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> -->
+
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
             </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
 
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius nibh enim, eget vestibulum dui
-                posuere at. Fusce a lacus vehicula, gravida lectus a, dignissim nisi. Class aptent taciti sociosqu ad
-                litora
-                torquent per conubia nostra, per inceptos
-                himenaeos. Mauris rhoncus interdum nunc. Suspendisse cursus erat sit amet venenatis blandit. Suspendisse
-                tellus nibh, sollicitudin in rutrum vel, auctor vel odio. In lacinia eget nisi a lobortis. In hac
-                habitasse
-                platea dictumst. Sed dignissim
-                mi in nulla gravida, quis hendrerit sem laoreet. Integer nulla lectus, pulvinar eu imperdiet a,
-                convallis
-                auctor turpis. Nullam pharetra, nisl id dictum faucibus, diam tortor vestibulum libero, sit amet dapibus
-                eros tortor eu metus. Morbi
-                pretium odio eget dolor convallis, sit amet congue ipsum pretium. Pellentesque habitant morbi tristique
-                senectus et netus et malesuada fames ac turpis egestas.
+                Comumente, lixo eletrônico refere-se a todos os equipamentos
+                elétricos/eletrônicos e peças que foram descartadas por seu proprietário sem a
+                intenção de reutilizar o mesmo. Ademais, segundo o documento “Uma Definição
+                Global de E-waste”, da Universidade das Nações Unidas, o lixo eletrônico também é
+                conhecido como WEEE (sigla em inglês que significa Resíduos de Equipamentos
+                Elétricos e Eletrônicos) e constitui-se de quase todos os rejeitos dos produtos que
+                possuem circuitos, ou que funcionam a base de energia, presentes no cotidiano da
+                sociedade, e que, quando inutilizados, possuem uma bateria um ou plug. Devido à
+                complexidade, de acordo com as características que as divergem, tais pertences
+                obsoletos podem ser divididos em 6 principais tipologias:
+            </p>
+
+            <ul>
+                <br>
+                <li><b>Equipamentos de troca de temperatura:</b> frigoríferos em geral, tais como
+                    geladeiras, freezers, etc., ou seja, objetos que remetem ao resfriamento e
+                    congelamento.
+                </li>
+                <br>
+                <li><b>Telas e monitores:</b> monitores em geral, desde aparelhos televisivos até
+                    notebooks.
+                </li>
+                <br>
+                <li><b>Lâmpadas:</b> todas as lâmpadas são consideradas lixo elétrico, sejam elas
+                    fluorescentes ou LEDs.
+                </li>
+                <br>
+                <li><b>Equipamentos grandes:</b> fogões elétricos, maquinas de lavar, painéis
+                    fotovoltaicos etc.
+                </li>
+                <br>
+                <li><b>Equipamentos pequenos:</b> ventiladores, torradeiras, barbeadores elétricos,
+                    calculadoras, liquidificadores etc.
+                </li>
+                <br>
+                <li><b>Pequenos equipamentos de informática e telecomunicações:</b> celulares,
+                    GPS, roteadores, telefones, fios, cabos, etc.
+                </li>
+                <br>
+            </ul>
 
             <p>
-                Sed porttitor diam enim, sed aliquam risus commodo non. Morbi volutpat eros vitae urna maximus, id
-                finibus
-                libero tempor. Integer eu libero fermentum, mattis dolor eget, tempor metus. Aenean et magna id augue
-                tincidunt mollis. Proin sagittis sapien cursus
-                mi bibendum, ultrices tincidunt dolor imperdiet. Integer a tellus ut quam laoreet hendrerit vitae id
-                enim.
-                Vivamus at bibendum sem, eget euismod lectus. Etiam id fringilla ante. Nulla aliquam dolor nisl,
-                fermentum
-                consequat nibh luctus
-                vitae. Aenean sit amet interdum ex. Nunc mollis turpis eleifend, ultrices ante a, tempus velit. Duis
-                tristique vulputate tortor, ut cursus quam tincidunt et.
+                Cada uma dessas categorias é composta por diversos produtos que dispõem
+                de variadas vidas úteis, ou seja, quantidade e valores econômicos diferentes, que
+                também levam a impactos ambientais distintos. Por lógica, cada qual dessas é
+                reciclada de forma diferente, do mesmo modo que o processo de coleta desses
+                materiais, visto que, de acordo com dados do Monitor Global de Lixo Eletrônico, os
+                REEE retêm compostos de valor em sua composição, como ouro, cobre, prata, platina
+                6
+                e outros metais preciosos, que podem ser readquiridos por meio do processo de
+                reciclagem, denotando a restauração de bilhões de dólares em matérias-primas
+                minerais.
+            </p>
+
+            <h2 align="left"><b>Qual o cenário do e-waste ao redor do globo?</b></h2>
+
+            <p>
+                O lixo eletrônico configura-se uma problemática geral, ou seja, ocorre ao redor
+                de todo o mundo. Comprova-se tal afirmação à vista de que, segundo o The Global E-Waste Monitor 2020 da
+                ONU, um recorde de 53,6 milhões de toneladas de eletrônicos,
+                compostos de todos os tipos de aparelhos, foi gerado em todo o mundo no ano de 2019, instituindo-se de
+                um aumento de cerca de 21% em apenas cinco anos.
             </p>
 
             <p>
-                Sed porttitor diam enim, sed aliquam risus commodo non. Morbi volutpat eros vitae urna maximus, id
-                finibus
-                libero tempor. Integer eu libero fermentum, mattis dolor eget, tempor metus. Aenean et magna id augue
-                tincidunt mollis. Proin sagittis sapien cursus
-                mi bibendum, ultrices tincidunt dolor imperdiet. Integer a tellus ut quam laoreet hendrerit vitae id
-                enim.
-                Vivamus at bibendum sem, eget euismod lectus. Etiam id fringilla ante. Nulla aliquam dolor nisl,
-                fermentum
-                consequat nibh luctus
-                vitae. Aenean sit amet interdum ex. Nunc mollis turpis eleifend, ultrices ante a, tempus velit. Duis
-                tristique vulputate tortor, ut cursus quam tincidunt et.
+                Ainda de acordo com o relatório,
+                a Ásia produziu o maior volume de REEE naquele ano, cerca de 24,9 Mt, seguido
+                pelas Américas (13,1 Mt) e Europa (12 Mt), enquanto a África e a Oceania originaram
+                2,9 Mt e 0,7 Mt, respectivamente, entretanto, de todo o mundo, somente 17,4% da
+                quantidade produzida foi coletada, gerenciada e descartada de maneira
+                ambientalmente adequada, tornando-se matéria-prima novamente.
+            </p>
+
+            <figure align="center">
+                <img src="./Captura da Web_10-4-2023_215857_.jpeg" alt="Minha Figura">
+                <figcaption>Fonte: The Global E-Waste Monitor 2020. Dados de 2019.</figcaption>
+            </figure>
+
+            <p>
+                Apesar de o Brasil ocupar a quinta posição entre os países com maior geração
+                de e-waste no mundo, grande parcela da população brasileira ainda não possui
+                conhecimento acerca do conceito, do que constitui e de como deve ser realizado o
+                descarte desse tipo de resíduo para que danos ao meio ambiente e à saúde humana
+                sejam abdicados.
             </p>
 
             <p>
-                Sed porttitor diam enim, sed aliquam risus commodo non. Morbi volutpat eros vitae urna maximus, id
-                finibus
-                libero tempor. Integer eu libero fermentum, mattis dolor eget, tempor metus. Aenean et magna id augue
-                tincidunt mollis. Proin sagittis sapien cursus
-                mi bibendum, ultrices tincidunt dolor imperdiet. Integer a tellus ut quam laoreet hendrerit vitae id
-                enim.
-                Vivamus at bibendum sem, eget euismod lectus. Etiam id fringilla ante. Nulla aliquam dolor nisl,
-                fermentum
-                consequat nibh luctus
-                vitae. Aenean sit amet interdum ex. Nunc mollis turpis eleifend, ultrices ante a, tempus velit. Duis
-                tristique vulputate tortor, ut cursus quam tincidunt et.
+                Segundo a pesquisa “Resíduos eletrônicos no Brasil”, conduzida pela Radar
+                Pesquisas e divulgada pela Green Eletron, com a participação de 2.075 indivíduos
+                entre 18 e 65 anos, em 13 estados e um distrito federal, cerca de 87% dos brasileiros
+                já ouviu falar de lixo eletrônico, mas 33%, ou seja, um terço, acredita que esse lixo
+                seja relacionado a spams, e-mails, fotos ou arquivos. Para a outra parcela de 42%, as
+                definições se caracterizam por eletrodomésticos quebrados e 3% acreditam que são
+                apenas os objetos elétricos que já estão no lixo, sendo apenas os que já foram
+                descartados, incluindo similarmente os que acabam parando nos lixões ou natureza.
+            </p>
+
+            <h2 align="left"><b>Qual o cenário dos resíduos eletrônicos em Vargem Grande do Sul - SP?</b></h2>
+
+            <p>
+                No que implica a cidade de Vargem Grande do Sul, situada no interior do estado
+                de São Paulo, a objeção dos despojos elétricos não se diverge dos aspectos
+                macrorregionais. Desse modo, de acordo com o biólogo e assessor do Departamento
+                de Meio Ambiente da prefeitura municipal, Antônio Marcos Aedes da Cunha Santos,
+                o tema aludido ainda configura uma questão onde existe baixo teor de relevância e
+                preocupação perante aos regentes e corpo social local.
             </p>
 
             <p>
-                Sed porttitor diam enim, sed aliquam risus commodo non. Morbi volutpat eros vitae urna maximus, id
-                finibus
-                libero tempor. Integer eu libero fermentum, mattis dolor eget, tempor metus. Aenean et magna id augue
-                tincidunt mollis. Proin sagittis sapien cursus
-                mi bibendum, ultrices tincidunt dolor imperdiet. Integer a tellus ut quam laoreet hendrerit vitae id
-                enim.
-                Vivamus at bibendum sem, eget euismod lectus. Etiam id fringilla ante. Nulla aliquam dolor nisl,
-                fermentum
-                consequat nibh luctus
-                vitae. Aenean sit amet interdum ex. Nunc mollis turpis eleifend, ultrices ante a, tempus velit. Duis
-                tristique vulputate tortor, ut cursus quam tincidunt et.
+                Pode-se inferir, à vista disso, que o descarte também não é de grande
+                conhecimento no que se refere a população, uma vez que, também de acordo com o
+                biologista, o município possui somente um ponto de coleta destinado para o descarte
+                adequado do lixo eletrônico dos estimados, pelo Instituto Brasileiro de Geografia e
+                Estatística (IBGE), no ano de 2021, 45.000 habitantes. E, além disso, tal local fadado
+                constitui-se uma iniciativa individual da “Associação Setembro”, uma organização sem
+                fins lucrativos, criada para captar recursos e amparar as entidades territoriais, e que,
+                posteriormente e atualmente, logrou afiliação/amparo da prefeitura, a qual envia seus
+                aparelhos obsoletos internos para o ponto de coleta da mesma.
             </p>
+
+            <p>
+                Sob esse viés, fica explícito que os programas de divulgação acerca de
+                informações e conhecimento tornam-se necessários para aumentar a relevância do tratamento e descarte do
+                lixo eletrônico na cidade. Portanto, este site tem como objetivo propagar informações sobre o e-waste e
+                os locais de coleta implantados na cidade de Vargem Grande do Sul - SP.
+            </p>
+
         </div>
     </main>
 
-
-    <!-- rodapé -->
     <footer>
         <p>Todos os direitos reservados à Etec de Vargem Grande do Sul ©
         </p>
